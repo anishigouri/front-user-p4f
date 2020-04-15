@@ -1,0 +1,24 @@
+.ClientItem-main {
+  background-color: #eee;
+  max-width: 250px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  div {
+
+    p {
+      margin-top: 5px;
+      font-weight: 500;
+    }
+
+    &:hover {
+      background-color: #ccc;
+    }
+  }
+
+}
+.ClientList-select {
+  width: 100%;
+  margin: 10px;
+}

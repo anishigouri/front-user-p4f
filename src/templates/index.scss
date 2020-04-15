@@ -1,0 +1,14 @@
+.Index-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.Index-content {
+  flex-basis: 100%;
+}
+
+@media(max-width: '768px') {
+  .Index-body {
+    flex-flow: row wrap;
+  }
+}

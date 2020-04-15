@@ -1,0 +1,11 @@
+.PhotosList-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.PhotoList-item {
+  cursor: pointer;
+  margin: 10px;
+}

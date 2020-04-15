@@ -1,0 +1,22 @@
+.Posts-main {
+  padding: 10px;
+
+  .Posts-content {
+    background-color: #ffe082;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+
+    p {
+      &.Posts-title {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      &.Posts-body {
+        font-size: 15px;
+        margin-top: 10px;
+      }
+    }
+  }
+}
