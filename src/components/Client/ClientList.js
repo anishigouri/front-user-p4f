@@ -15,9 +15,17 @@ export default function ClientList() {
   }
 
   useEffect(() => {
-    if (resultClients) { setClients(resultClients); }
+    if (resultClients) {
+      setClients(resultClients);
+    }
     handleResize();
   }, [resultClients]);
+
+  useEffect(() => {
+    if (clients && clients.length > 0) {
+      selectClientAction(clients[0]);
+    }
+  }, [clients]);
 
   useEffect(() => {
     handleResize();

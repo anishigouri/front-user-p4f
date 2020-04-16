@@ -1,5 +1,4 @@
 import axios from 'axios-jsonp-pro';
-// import { useDispatch } from 'react-redux';
 
 export default function callApi(url, dispatch) {
   return new Promise((resolve, reject) => {
