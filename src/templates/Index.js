@@ -58,3 +58,7 @@ Main.defaultProps = {
 Main.propTypes = {
   children: PropTypes.shape({}),
 };
+
+DefaultLayoutRoute.propTypes = {
+  component: PropTypes.element.isRequired,
+};
